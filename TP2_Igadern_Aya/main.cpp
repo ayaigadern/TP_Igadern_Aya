@@ -3,8 +3,8 @@
 #define EXO 1
 #endif
 namespace espace{
-        int x=42;
-        void aff(){
+        int x=42; // Declaration d'une variable entiere x dans le namespace
+        void aff(){ // definition d une fonction qui affiche la valeur de x
             std::cout<<"avec namespace: "<<x<<std::endl;
         }
         
@@ -12,7 +12,7 @@ namespace espace{
 int main(int argc,char* argv[]){
     #if EXO==1
     std::cout<<"Exercice 1 "<<std::endl;
-    #define PI 3.14159
+    #define PI 3.14159 // definition d'une macro PI
     #ifdef DEBUG
     std::cout<<"DEBUG est definie "<<std::endl;
     #else
@@ -29,7 +29,7 @@ int main(int argc,char* argv[]){
     #elif EXO==3
     std::cout<<"Exercice 3"<<std::endl;
     
-    espace::aff();
+    espace::aff(); // Appel de la fonction (aff) du namespace (espace)
     std::cout<<"sans namespace: "<<espace::x<<std::endl;
     return 0;
 
