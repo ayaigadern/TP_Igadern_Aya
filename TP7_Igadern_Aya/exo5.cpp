@@ -31,4 +31,5 @@ int main(){
     }
     std::cout<<std::endl;
     etd.moyenne();
+    return 0;
 }

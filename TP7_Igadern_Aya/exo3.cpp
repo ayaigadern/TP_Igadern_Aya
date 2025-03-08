@@ -29,7 +29,7 @@ int main(){
     Joueur J1{"Alice",100};
     J1.afficher_nom();
     J1.afficher_score();
-
+    return 0;
    
 
 

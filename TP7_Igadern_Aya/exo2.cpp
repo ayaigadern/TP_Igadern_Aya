@@ -34,4 +34,5 @@ int main(){
     J1->afficher_nom();
     J1->afficher_score();
     delete J1;
+    return 0;
 }

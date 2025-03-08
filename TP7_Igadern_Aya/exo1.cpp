@@ -25,6 +25,7 @@ int main(){
     J2.score=200;
     J2.afficher_nom();
     J2.afficher_score();
+    return 0;
 
     
 }
