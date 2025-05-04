@@ -1,0 +1,3 @@
+Nom                 Age       Salaire        
+Alice               30        50000.50       
+Alia                15        250.00         
