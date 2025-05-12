@@ -1,0 +1,17 @@
+
+=== Cluster Metrics at 2025-05-12 18:53:25 ===
+=== Cluster test-cluster Metrics ===
+=== Nodes ===
+[Server: test-node-1: 10 CPU, 16384 Memory, Available: 6.7 CPU, 9728 Memory]
+=== Namespace Manager ===
+[Namespace: backend]
+  [ResourceQuota: CPU 0.8/3, Memory 1536/4096]
+[Pod: api-pod] Labels: {tier: backend, app: api}
+[Container: api-container: 0.8 CPU, 1536 Memory, nodejs:latest]
+[Namespace: frontend]
+  [ResourceQuota: CPU 2.5/5, Memory 5120/8192]
+[Pod: ui-pod] Labels: {tier: frontend, app: ui}
+[Container: ui-container: 1 CPU, 2048 Memory, nginx:latest]
+[Pod: web-pod] Labels: {tier: frontend, app: web}
+[Container: web-container: 1.5 CPU, 3072 Memory, apache:latest]
+[Namespace: default]
